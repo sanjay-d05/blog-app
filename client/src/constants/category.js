@@ -1,0 +1,22 @@
+export const categories = [
+  { name: "Personal & Lifestyle", value: "personal-lifestyle" },
+  { name: "Career & Education", value: "career-education" },
+  { name: "Tech & Programming", value: "tech-programming" },
+  { name: "Creative & Hobbies", value: "creative-hobbies" },
+  { name: "Finance & Business", value: "finance-business" },
+  { name: "Society & Culture", value: "society-culture" },
+  { name: "Media & Entertainment", value: "media-entertainment" },
+  { name: "Health & Wellness", value: "health-wellness" },
+  { name: "Travel", value: "travel" },
+  { name: "Food & Cooking", value: "food-cooking" },
+  { name: "Home & Living", value: "home-living" },
+  { name: "Fashion & Beauty", value: "fashion-beauty" },
+  { name: "Sports", value: "sports" },
+  { name: "Gaming", value: "gaming" },
+  { name: "Science & Environment", value: "science-environment" },
+  { name: "News & Politics", value: "news-politics" },
+  { name: "Reviews", value: "reviews" },
+  { name: "Pets & Animals", value: "pets-animals" },
+  { name: "Spirituality & Religion", value: "spirituality-religion" },
+  { name: "Automotive", value: "automotive" }
+];
