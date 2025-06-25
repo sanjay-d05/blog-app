@@ -20,7 +20,7 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 app.use(cors({
   origin: [
     process.env.CLIENT_URI,
-    'https://mern-frontend.onrender.com'
+    'https://blog-app-client-w5tg.onrender.com'
   ] , 
   credentials:true
 }));
