@@ -24,7 +24,7 @@ function LoginPage({ buttonText }) {
     const { email, password } = loginData;
     try {
       const res = await AxiosInstance.post('/auth/login', loginData);
-      setAuthUser(res.data);
+      setAuthUser(res.data.data);
       toast.success('Logged In successfully');
       setLoginData({email:'',password:''});
     } catch (error) {
