@@ -19,7 +19,7 @@ const AuthProvider = ({ children }) => {
     const checkAuth = async () => {
         try {
             const res = await AxiosInstance.get('/auth/check');
-            setAuthUser(res.data);     
+            setAuthUser(res.data.data);     
         } catch (error) {
             setAuthUser(null);
         } finally {
