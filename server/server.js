@@ -20,7 +20,7 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 app.use(cors({
   origin: [
     process.env.CLIENT_URI,
-    'https://blog-app-client-w5tg.onrender.com'
+    'https://blog-app-client-4j23.onrender.com'
   ] , 
   credentials:true
 }));
