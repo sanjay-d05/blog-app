@@ -160,6 +160,6 @@ MERN Stack Developer
 
 > Contributions and feedback are welcome. Feel free to open an issue or pull request!
 
----
+```
 
 
