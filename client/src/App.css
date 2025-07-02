@@ -1,0 +1,62 @@
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #6366f1; /* indigo-500 */
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #4f46e5; /* indigo-600 */
+}
+
+
+input[type='password']::-ms-reveal,
+input[type='password']::-ms-clear {
+  display: none;
+}
+
+input[type='password']::-webkit-credentials-auto-fill-button {
+  visibility: hidden;
+  display: none !important;
+  pointer-events: none;
+  height: 0;
+  width: 0;
+  margin: 0;
+}
+
+.search-input:focus{
+outline: none !important;
+}
+
+/* ultra-thin-scroll.css */
+.scrollbar-invisible-thin {
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollbar-invisible-thin::-webkit-scrollbar {
+  width: 4px;
+}
+
+.scrollbar-invisible-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-invisible-thin::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.1); /* low contrast */
+  border-radius: 8px;
+}
+
+.scrollbar-invisible-thin:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.2); /* subtle on hover */
+}
+
