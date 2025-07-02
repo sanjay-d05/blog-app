@@ -22,7 +22,7 @@ This application supports user authentication, blog post management, image uploa
 
 ## 🔗 Demo
 
-> Live demo: [https://your-deployed-app-link.com](https://blog-app-client-z7qz.onrender.com)
+> Live demo: [View Demo](https://blog-app-client-z7qz.onrender.com)
 
 ---
 
