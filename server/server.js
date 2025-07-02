@@ -18,7 +18,7 @@ const CLIENT_URI = process.env.CLIENT_URI;
 const allowedOrigins = [
   CLIENT_URI,
   "http://localhost:3000",
-  "https://yourapp.vercel.app"
+  "https://blog-app-client-z7qz.onrender.com"
 ];
 
 
