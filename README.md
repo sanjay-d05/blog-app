@@ -160,15 +160,4 @@ MERN Stack Developer
 
 > Contributions and feedback are welcome. Feel free to open an issue or pull request!
 
-```
 
----
-
-### ✅ Next Steps (Optional for You)
-- Replace the **placeholder image URLs** with your real app screenshots.
-- Update `your-username`, `your-link`, and `your-portfolio` with real links.
-- Add a `LICENSE` file if you haven’t yet.
-- Want to include deployment instructions (e.g. Vercel + Render)? I can add that too.
-
-Would you like a `.env.example` file generated next?
-```
