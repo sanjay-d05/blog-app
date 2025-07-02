@@ -1,6 +1,3 @@
-
-
-````markdown
 # 📰 MERN Blog Platform
 
 A modern, full-featured **Blog Application** built using the **MERN stack**, with a blazing-fast frontend powered by **React + Vite** and styled using the elegant and accessible **shadcn/ui** component library.
@@ -25,7 +22,7 @@ This application supports user authentication, blog post management, image uploa
 
 ## 🔗 Demo
 
-> Live demo: [View Demo](https://blog-app-client-z7qz.onrender.com)
+> Live demo: [https://your-deployed-app-link.com](https://your-deployed-app-link.com)
 
 ---
 
@@ -69,108 +66,5 @@ This application supports user authentication, blog post management, image uploa
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/sanjay-d05/blog-app.git
+git clone https://github.com/your-username/mern-blog-app.git
 cd mern-blog-app
-````
-
-### 2. Backend Setup
-
-```bash
-cd server
-npm install
-```
-
-Create a `.env` file in the `server` directory:
-
-```env
-PORT=8000
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
-```
-
-Start the backend:
-
-```bash
-npm run dev
-```
-
-### 3. Frontend Setup
-
-```bash
-cd ../client
-npm install
-npm run dev
-```
-
----
-
-## 📦 Scripts
-
-### Backend
-
-| Command       | Description                |
-| ------------- | -------------------------- |
-| `npm run dev` | Start backend with nodemon |
-
-### Frontend
-
-| Command         | Description                   |
-| --------------- | ----------------------------- |
-| `npm run dev`   | Start Vite development server |
-| `npm run build` | Build frontend for production |
-
----
-
-## 🖼 Screenshots
-
-> Add your actual screenshots in the `/public/screenshots` directory or use a CDN and replace the image links below.
-
-### 🔐 Authentication Page
-
-![Login Page](https://via.placeholder.com/1000x600?text=Login+Page)
-
-### 🏠 Home Feed
-
-![Blog Feed](https://via.placeholder.com/1000x600?text=Home+Feed)
-
-### ✏️ Create/Edit Blog Post
-
-![Editor](https://via.placeholder.com/1000x600?text=Blog+Editor)
-
-### 👤 Profile / Dashboard
-
-![Dashboard](https://via.placeholder.com/1000x600?text=User+Dashboard)
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-
----
-
-## 👨‍💻 Author
-
-**Sanjay D**
-MERN Stack Developer
-[GitHub](https://github.com/your-username) • [LinkedIn](https://linkedin.com/in/your-link) • [Portfolio](https://your-portfolio.com)
-
----
-
-> Contributions and feedback are welcome. Feel free to open an issue or pull request!
-
-```
-
----
-
-### ✅ Next Steps (Optional for You)
-- Replace the **placeholder image URLs** with your real app screenshots.
-- Update `your-username`, `your-link`, and `your-portfolio` with real links.
-- Add a `LICENSE` file if you haven’t yet.
-- Want to include deployment instructions (e.g. Vercel + Render)? I can add that too.
-
-Would you like a `.env.example` file generated next?
-```
