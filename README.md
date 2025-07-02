@@ -154,7 +154,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 **Sanjay D**  
 MERN Stack Developer  
-[GitHub](https://github.com/your-username) • [LinkedIn](https://linkedin.com/in/your-link) • [Portfolio](https://your-portfolio.com)
+• [GitHub](https://github.com/your-username) • [LinkedIn](https://linkedin.com/in/your-link) • [Portfolio](https://your-portfolio.com)
 
 ---
 
