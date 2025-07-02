@@ -152,9 +152,12 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ## 👨‍💻 Author
 
-**Sanjay D**
-MERN Stack Developer
-[GitHub](https://github.com/your-username) • [LinkedIn](https://linkedin.com/in/your-link) • [Portfolio](https://your-portfolio.com)
+**Sanjay D**  
+MERN Stack Developer  
+
+- GitHub: [https://github.com/your-username](https://github.com/your-username)  
+- LinkedIn: [https://linkedin.com/in/your-link](https://linkedin.com/in/your-link)  
+- Portfolio: [https://your-portfolio.com](https://your-portfolio.com)
 
 ---
 
