@@ -1,14 +1,4 @@
-Great observations! You're right — the **Environment Variables** section was duplicated, which we’ll clean up now. Also, I'll add a proper **Screenshots** section with placeholders where you can add your actual images.
 
-Here's your updated, **clean and professional `README.md`**, with:
-
-✅ No duplicate `.env` section
-✅ A polished **Screenshots** section
-✅ Markdown that’s ready for publishing on GitHub
-
----
-
-````markdown
 # 📰 MERN Blog Platform
 
 A modern, full-featured **Blog Application** built using the **MERN stack**, with a blazing-fast frontend powered by **React + Vite** and styled using the elegant and accessible **shadcn/ui** component library.
