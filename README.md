@@ -23,7 +23,7 @@ This application supports user authentication, blog post management, image uploa
 
 ## 🔗 Demo
 
-> Live demo: [https://your-deployed-app-link.com](https://your-deployed-app-link.com)
+> Live demo: [Check here](https://blog-app-client-z7qz.onrender.com)
 
 ---
 
@@ -67,7 +67,7 @@ This application supports user authentication, blog post management, image uploa
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/mern-blog-app.git
+git clone https://github.com/sanjay-d05/blog-app.git
 cd mern-blog-app
 ````
 
@@ -160,6 +160,5 @@ MERN Stack Developer
 
 > Contributions and feedback are welcome. Feel free to open an issue or pull request!
 
-```
 
 
