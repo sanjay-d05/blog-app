@@ -61,7 +61,7 @@ This application supports user authentication, blog post management, image uploa
 
 ---
 
-## ⚙️ Getting Started
+## ⚙️ Getting Started <a id="getting-started"></a>
 
 ### 1. Clone the Repository
 
