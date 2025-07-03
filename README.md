@@ -128,7 +128,7 @@ npm run dev
 
 ### 🔐 Authentication Page
 
-![Login Page](https://via.placeholder.com/1000x600?text=Login+Page)
+![Login Page Screenshot](https://raw.githubusercontent.com/sanjay-d05/blog/main/client/public/loginPageScreenshot.png)
 
 ### 🏠 Home Feed
 
