@@ -13,7 +13,6 @@ This application supports user authentication, blog post management, image uploa
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
 - [Getting Started](#-getting-started)
-- [Environment Variables](#-environment-variables)
 - [Scripts](#-scripts)
 - [Screenshots](#-screenshots)
 - [License](#-license)
