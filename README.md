@@ -12,7 +12,7 @@ This application supports user authentication, blog post management, image uploa
 - [Demo](#-demo)
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
-- [Getting Started](#-getting-started)
+- [Getting Started](#getting-started)
 - [Scripts](#-scripts)
 - [Screenshots](#-screenshots)
 - [License](#-license)
