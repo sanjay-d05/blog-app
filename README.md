@@ -124,10 +124,6 @@ npm run dev
 
 ## 🖼 Screenshots
 
-> Add your actual screenshots in the `/public/screenshots` directory or use a CDN and replace the image links below.
-
-### 🔐 Authentication Page
-
 ### Login Page Screenshot
 
 <img src="https://raw.githubusercontent.com/sanjay-d05/blog-app/main/client/public/loginPageScreenshot.jpeg" alt="Login Page Screenshot" width="600"/>
