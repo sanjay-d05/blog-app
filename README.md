@@ -124,21 +124,21 @@ npm run dev
 
 ## 🖼 Screenshots
 
-### Login Page Screenshot
+### 🔐 Login Page Screenshot
 
 <img src="https://raw.githubusercontent.com/sanjay-d05/blog-app/main/client/public/loginPageScreenshot.jpeg" alt="Login Page Screenshot" width="600"/>
 
 ### 🏠 Home Feed
 
-![Blog Feed](https://via.placeholder.com/1000x600?text=Home+Feed)
+<img src="https://raw.githubusercontent.com/sanjay-d05/blog-app/main/client/public/homePageScreenshot.jpeg" alt="Login Page Screenshot" width="600"/>
 
-### ✏️ Create/Edit Blog Post
+### ✏️ Blogs Page
 
-![Editor](https://via.placeholder.com/1000x600?text=Blog+Editor)
+<img src="https://raw.githubusercontent.com/sanjay-d05/blog-app/main/client/public/blogsPageScreenshot.jpeg" alt="Login Page Screenshot" width="600"/>
 
 ### 👤 Profile / Dashboard
 
-![Dashboard](https://via.placeholder.com/1000x600?text=User+Dashboard)
+<img src="https://raw.githubusercontent.com/sanjay-d05/blog-app/main/client/public/profilePageScreenshot.jpeg" alt="Login Page Screenshot" width="600"/>
 
 ---
 
