@@ -128,7 +128,7 @@ npm run dev
 
 ### 🔐 Authentication Page
 
-![Login Page Screenshot](https://raw.githubusercontent.com/sanjay-d05/blog-app/main/client/public/loginPageScreenshot.png)
+![Login Page Screenshot](https://raw.githubusercontent.com/sanjay-d05/blog-app/main/client/public/loginPageScreenshot.jpeg)
 
 ### 🏠 Home Feed
 
