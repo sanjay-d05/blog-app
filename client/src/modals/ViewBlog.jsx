@@ -59,7 +59,7 @@ function ViewBlog() {
 
         {/* Title */}
         <h1 className="text-3xl md:text-4xl font-semibold text-indigo-100">
-          {viewBlogdata.title}
+          {viewBlogdata?.title}
         </h1>
 
         <h5>
@@ -68,17 +68,17 @@ function ViewBlog() {
 
         {/* Author & Date */}
         <div className="text-sm text-gray-400">
-          By <span className="text-indigo-400">{viewBlogdata.authorName || 'Anonymous'}</span> •{' '}
-          {new Date(viewBlogdata.createdAt).toLocaleDateString('en-US', {
+          By <span className="text-indigo-400">{viewBlogdata?.authorName || 'Anonymous'}</span> •{' '}
+          {new Date(viewBlogdata?.createdAt).toLocaleDateString('en-US', {
             month: 'short',
             year: 'numeric',
           })}
         </div>
 
         {/* Image */}
-        {viewBlogdata.coverImage && (
+        {viewBlogdata?.coverImage && (
           <img
-            src={viewBlogdata.coverImage}
+            src={viewBlogdata?.coverImage}
             alt="Blog Cover"
             className="w-full max-h-[250px] object-cover rounded-xl shadow-lg"
           />
@@ -86,13 +86,13 @@ function ViewBlog() {
 
         {/* Content */}
         <div className="text-lg leading-relaxed text-gray-200 whitespace-pre-line">
-          {viewBlogdata.content || 'No content available.'}
+          {viewBlogdata?.content || 'No content available.'}
         </div>
 
         {/* Tags */}
-        {viewBlogdata.tags && viewBlogdata.tags.length > 0 && (
+        {viewBlogdata?.tags && viewBlogdata?.tags.length > 0 && (
           <div className="flex flex-wrap gap-2 pt-4 border-t border-indigo-800">
-            {viewBlogdata.tags.map((tag, i) => (
+            {viewBlogdata?.tags.map((tag, i) => (
               <span
                 key={i}
                 className="text-sm px-3 py-1 bg-indigo-700 rounded-full text-white hover:bg-indigo-600 transition"
@@ -109,7 +109,7 @@ function ViewBlog() {
 
           <div className="flex flex-col gap-2 mb-4">
             <textarea
-              value={commentData.commentText}
+              value={commentData?.commentText}
               onChange={(e) =>
                 setCommentData(prev => ({ ...prev, commentText: e.target.value }))
               }
@@ -128,17 +128,17 @@ function ViewBlog() {
 
           {comments.length > 0 ? (
             <div className="space-y-3 h-[20rem] overflow-auto custom-scrollbar">
-              {comments.map((cmt, index) => (
+              {comments?.map((cmt, index) => (
                 <div key={index} className="bg-[#141135] p-3 rounded-lg shadow">
                   <div className="text-sm text-indigo-300">
-                    {cmt.commenterName || 'User'} •{' '}
-                    {new Date(cmt.createdAt).toLocaleDateString('en-US', {
+                    {cmt?.commenterName || 'User'} •{' '}
+                    {new Date(cmt?.createdAt).toLocaleDateString('en-US', {
                       day: 'numeric',
                       month: 'short',
                       year: 'numeric',
                     })}
                   </div>
-                  <p className="text-gray-100 mt-1">{cmt.commentText}</p>
+                  <p className="text-gray-100 mt-1">{cmt?.commentText}</p>
                 </div>
               ))}
             </div>
