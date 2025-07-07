@@ -16,7 +16,7 @@ import {
 
 function BlogsPage() {
   const { isSearchActive } = useSelector(store => store.auth);
-  const { blogData, currentCategory } = useSelector((store) => store.blog);
+  const { blogData, currentCategory } = useSelector(store => store.blog);
   const dispatch = useDispatch();
   const [openFilter, setOpenFilter] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
